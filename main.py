@@ -26,8 +26,6 @@ def PortrayChart(data):
     num = len(data)
     print("data:")
     print(data)
-    print("num:")
-    print(len(data))
     while(n < num):
         point = PointCoordinateConvert(data[n])
         print("convert point:")
